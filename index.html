@@ -5,16 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
-    <link real="stylesheet" href="style.css">
-    <link real="icon" href="/rsschool-cv/assets/images .ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/logo.ico">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https: //fonts.googleapis.com/css2?family= Inika :wght@400;700 & family= Inter:wght@400;700 & family= Roboto:ital,wght@1,300;1,700 & display=swap" rel="stylesheet ">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300;1,700&display=swap" rel="stylesheet">
 
 </head>
 <body>
-    <header class="header"></header>
-    <main class="main"></main>
-    <footer class="footer"></footer>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#AboutMe" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#CodeExamples" class="nav-link">Code Examples</a></li>
+                    <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#Languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main-container">
+            <section class="profile-section">
+                <h1 class="profile-title"> Anna Dubnitskaya</h1> 
+                <img src="./assets/img/1.jpg" class="photo" alt="my photo">    
+                <p class="profile-text">Junior Front-end Developer</p>
+            </section>
+           
+            <section class="section" id="Contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="contacts-list">
+                    <li class="contacts-item">Phone: +375 33 617 15 88</li>
+                    <li class="contacts-item">E-mail: nytelya408@gmail.com</li>
+                    <li class="contacts-item">GitHub: <a href="https://github.com/Hanna0414" class="contacts-link">Hanna0414</a></li>
+                    <li class="contacts-item">Discord: <a href="https://discord.com" class="contacts-link">nytelya</a></li>
+                </ul>
+               
+            </section>
+            <section class="section" id="AboutMe">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-type">I am 28 years old. I work in a constraction company. For a long time I wanted to choose a new direction of activity for myself. This direction has become JS in RSSchool.</p>
+            </section>
+            <section class="section" id="Skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="skills-list">
+                    <li class="skills-item">HTML</li>
+                    <li class="skills-item">CSS/SASS</li>
+                    <li class="skills-item">JavaScript (Basic)</li>
+                    <li class="skills-item">Git</li>
+                </ul>
+
+            </section>
+            <section class="section" id="CodeExamples">
+                <h2 class="section-title">Code Examples</h2>
+                <pre class="pre"><code>
+                function multiply(a, b){
+                
+                return a * b;
+
+                }
+                </code></pre>
+
+            </section>
+            <section class="section" id="Education">
+                <h2 class="section-title">Education</h2>
+                <ul class="education-list">
+                    <li class="education-item">Belarusian National Technical University</li>
+                        <li class="education-item2">Energy construction</li>
+                </ul>
+
+
+            </section>
+            <section class="section" id="Languages">
+                <h2 class="section-title">Languages</h2>
+                <p class="section-type">English A1 (I am improving my level)</p>
+
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-container"> 
+            <div class="footer-text">   
+              <p class="year">©&nbsp;2023</p>
+            </div>
+            <a href="https://github.com/Hanna0414" class="contacts-link">Hanna0414</a>
+            <a href="https://rs.school/js" class="RS"><img src="./assets/img/rs.svg" class="RS" alt="RSlogoJS"></a>        
+        </div>
+    </footer>
     
 </body>
 </html>
