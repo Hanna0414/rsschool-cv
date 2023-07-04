@@ -1,0 +1,10 @@
+body {
+    font-family:'Roboto', Sans-serif;
+    min-height: 100vh;
+    
+   }
+
+* {
+    box-sizing: border-box;
+    
+}
